@@ -1,0 +1,157 @@
+/* Base styling */
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header styles */
+h1 {
+    font-family: 'Truculenta', sans-serif;
+    font-size: 3em;
+    margin: 0;
+    padding: 20px 0 10px;
+}
+
+/* Navigation bar */
+nav {
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover,
+nav a.active {
+    text-decoration: underline;
+}
+
+/* Separator line */
+hr {
+    border: 1px solid white;
+    margin: 10px auto;
+    width: 90%;
+}
+
+/* Main content layout */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+/* Image styling */
+figure img {
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* Text block next to image */
+main div {
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Quote */
+em {
+    display: block;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+/* About page content container */
+#content {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Table styles - Purple and Pink Theme */
+table {
+    margin: 0px auto;
+    border-collapse: collapse;
+    width: 90%;
+    color: white;
+}
+
+#table-header {
+    background-color: #800080; /* Purple */
+    color: white;
+}
+
+.table-row {
+    background-color: #ffc0cb; /* Light Pink */
+}
+
+td {
+    padding: 10px 20px;
+    font-size: 1.3em;
+    border: 1px solid #d87093; /* Pale Violet Red */
+}
+
+td strong {
+    color: #ff69b4; /* Hot Pink */
+}
+
+/* Interest list styling */
+ul {
+    width: 80%;
+    margin: 20px auto;
+    padding-left: 20px;
+    text-align: left;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+span.hobby {
+    color: hotpink;
+    font-weight: bold;
+}
+
+/* Contact form container */
+.form-wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 1100px;
+    border: none;
+}
+
+/* Footer styles */
+footer {
+    padding: 20px;
+    font-size: 0.75em; /* Smaller font */
+    color: #cccccc;     /* Light gray for contrast */
+    text-align: center;
+}
+
+footer strong {
+    font-weight: bold;
+}
+
+.footer-logo {
+    margin-top: 10px;
+}
+
+.footer-logo img {
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+}
